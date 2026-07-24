@@ -19,6 +19,10 @@ The model files are published as GitHub Release assets instead of Git objects,
 so the app source repository stays small. The app downloads the selected model
 on demand and verifies every file with its size and SHA-256 digest.
 
+## Stable manifest URL
+
+https://github.com/lonami3125-bot/yishouna-models/releases/latest/download/manifest.json
+
 See the `LICENSE-QWEN-APACHE-2.0.txt` and `NOTICE.txt` assets in each release.
 
 This repository contains model distribution metadata only. It does not contain
