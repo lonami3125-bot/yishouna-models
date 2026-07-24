@@ -1,0 +1,29 @@
+Qwen3-ASR-0.6B INT8 model distribution notice
+
+This repository redistributes an ONNX INT8 conversion of Qwen3-ASR-0.6B for use
+with sherpa-onnx.
+
+Original model:
+  Qwen/Qwen3-ASR-0.6B
+  https://huggingface.co/Qwen/Qwen3-ASR-0.6B
+
+Original model authors:
+  The Alibaba Qwen Team
+
+ONNX conversion and upstream package:
+  k2-fsa/sherpa-onnx
+  https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-qwen3-asr-0.6B-int8-2026-03-25.tar.bz2
+
+Export and runtime documentation:
+  https://k2-fsa.github.io/sherpa/onnx/qwen3-asr/export.html
+
+License:
+  Apache License 2.0
+
+Each model release includes LICENSE-QWEN-APACHE-2.0.txt copied from the official
+Qwen3-ASR source repository:
+  https://github.com/QwenLM/Qwen3-ASR
+
+The model files are redistributed without modification after extraction from
+the upstream archive. No endorsement by or affiliation with the Alibaba Qwen
+Team or k2-fsa is implied.
